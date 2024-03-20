@@ -18,7 +18,7 @@ result.style.cssText = `
   border-radius: 5px; padding: 10px; margin: 10px 0
   `;
 classification.style.cssText = `
-  visibility: hidden; color: #00246b; text-align: center; font-size: 20px;
+  visibility: hidden; color: white; text-align: center; font-size: 20px;
   font-weight: 800; 
 `;
 
@@ -34,7 +34,23 @@ btn.addEventListener("click", () => {
     if (resultBMI < 18.5) {
       classification.innerHTML = `CLASSIFICAÇÃO: ${classBMI.underweight}`;
       classification.style.visibility = "visible";
-      inputs.appendChild(classification);
+      result.appendChild(classification);
+    } else if (resultBMI >= 18.5 && resultBMI < 25) {
+      classification.innerHTML = `CLASSIFICAÇÃO: ${classBMI["normal-weight"]}`;
+      classification.style.visibility = "visible";
+      result.appendChild(classification);
+    } else if (resultBMI >= 25 && resultBMI < 30) {
+      classification.innerHTML = `CLASSIFICAÇÃO: ${classBMI.overweight}`;
+      classification.style.visibility = "visible";
+      result.appendChild(classification);
+    } else if (resultBMI >= 30 && resultBMI < 40) {
+      classification.innerHTML = `CLASSIFICAÇÃO: ${classBMI.obese2}`;
+      classification.style.visibility = "visible";
+      result.appendChild(classification);
+    } else {
+      classification.innerHTML = `CLASSIFICAÇÃO: ${classBMI.obese3}`;
+      classification.style.visibility = "visible";
+      result.appendChild(classification);
     }
   } else {
     alert("Insira dados válidos");
