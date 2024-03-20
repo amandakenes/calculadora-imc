@@ -13,7 +13,7 @@
 
 body::-webkit-scrollbar {
 	display: none;
-  }
+}
 
 .tooltip {
 	position: relative;
@@ -27,21 +27,21 @@ body::-webkit-scrollbar {
 	width: 60px;
 	text-align: center;
 	border-radius: 6px;
-  font-weight: 100;
-  font-size: 15px;
-  padding: 10px;
-  line-height: 18px;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 10px;
+	line-height: 18px;
 
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
 	top: -5px;
-  left: 105%;
+	left: 105%;
 }
 
 .tooltip:hover .tooltiptext {
 	visibility: visible;
-  font-size: 15px;
+	font-size: 15px;
 }
 
 header {
@@ -147,4 +147,30 @@ button:hover {
 	transition: 0.3s ease-in-out;
 	background-color: var(--white);
 	color: var(--primary-color);
+}
+
+footer {
+	background-color: var(--primary-color);
+	padding: 10px;
+	height: 81px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 17px;
+	color: var(--accent-color);
+	margin: 37px 0;
+	font-style: italic;
+	letter-spacing: 0.9px;
+}
+
+footer p a {
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--accent-color);
+}
+
+footer p a:hover {
+	transition: 0.4s;
+	font-size: 17.5px;
 }
