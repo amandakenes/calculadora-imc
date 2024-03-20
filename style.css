@@ -15,35 +15,6 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
-.tooltip {
-	position: relative;
-	display: inline-block;
-	border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-	visibility: hidden;
-	background-color: rgba(0, 0, 0, 0.512);
-	width: 60px;
-	text-align: center;
-	border-radius: 6px;
-	font-weight: 100;
-	font-size: 15px;
-	padding: 10px;
-	line-height: 18px;
-
-	/* Position the tooltip */
-	position: absolute;
-	z-index: 1;
-	top: -5px;
-	left: 105%;
-}
-
-.tooltip:hover .tooltiptext {
-	visibility: visible;
-	font-size: 15px;
-}
-
 header {
 	background-color: var(--primary-color);
 	padding: 40px;
@@ -60,7 +31,7 @@ header h1 {
 
 main {
 	background-color: var(--accent-color);
-	padding: 60px;
+	padding: 69px;
 }
 
 .input-area {
@@ -80,7 +51,7 @@ main {
 
 .input-area p {
 	color: var(--primary-color);
-	line-height: 40px;
+	line-height: 36px;
 	font-size: 19px;
 	text-align: center;
 }
@@ -97,6 +68,35 @@ main {
 .input-area p span:hover {
 	transition: 0.2s;
 	font-size: 20px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, 0.512);
+	width: 170px;
+	text-align: center;
+	border-radius: 6px;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 10px;
+	line-height: 18px;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	font-size: 15px;
 }
 
 #inputs {
@@ -125,7 +125,7 @@ input {
 	border: none;
 	height: 25px;
 	width: 150px;
-	font-size: 22px;
+	font-size: 20px;
 	border-radius: 4px;
 	color: var(--primary-color);
 }
@@ -136,6 +136,7 @@ button {
 	background-color: var(--primary-color);
 	color: var(--accent-color);
 	font-weight: 700;
+	font-size: 17px;
 	padding: 12px;
 	width: 150px;
 	border-radius: 9px;
