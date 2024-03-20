@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora IMC</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Calcule seu IMC</h1>
-    </header>
-    <main>
-      <div class="input-area">
-        <h2>Quer saber se está abaixo do peso, no peso ideal ou acima dele?</h2>
-        <p>
-          Digite abaixo seu <span>peso</span> e sua <span>altura</span><br />
-          Em seguida, clique no botão <span>"Calcular"</span> <br />
-          Nós fazemos o restante e exibimos o <span>IMC</span> apara você
-        </p>
-        <div id="inputs">
-          <label id="label-weight" for="weight">Peso:</label>
-          <input type="text" id="weight" name="weight" /><p>/kg</p>
-          <label id="label-height" for="height">Altura:</label>
-          <input type="text" id="height" name="height" /><p>/cm</p>
-        </div>
-        <button>Calcular</button>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculadora IMC</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Calcule seu IMC</h1>
+		</header>
+		<main>
+			<div class="input-area">
+				<h2>Quer saber se está abaixo do peso, no peso ideal ou acima dele?</h2>
+				<p>
+					Digite abaixo seu
+					<span class="tooltip"
+						><span>peso</span><span class="tooltiptext">Em kg</span></span
+					>
+					e sua
+					<span class="tooltip"
+						><span>altura</span><span class="tooltiptext">Em m/cm</span></span
+					><br />
+					Em seguida, clique no botão
+					<span>"Calcular"</span>
+					<br />
+					Nós fazemos o restante e exibimos o seu
+					<span class="tooltip"
+						><span>IMC</span
+						><span class="tooltiptext">Índice de massa corporal</span></span
+					>na tela
+				</p>
+				<div id="inputs">
+					<label id="label-weight" for="weight">Peso:</label>
+					<input type="text" id="weight" name="weight" />
+					<p>/kg</p>
+					<label id="label-height" for="height">Altura:</label>
+					<input type="text" id="height" name="height" />
+					<p>/cm</p>
+				</div>
+				<button>Calcular</button>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
 </html>
