@@ -11,6 +11,10 @@
 	--white: #fff;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+  }
+
 .tooltip {
 	position: relative;
 	display: inline-block;
