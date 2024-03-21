@@ -6,7 +6,7 @@
 </p>
 
 <h2>Preview</h2>
-!['Preview de um site para calcular IMC, principais cores usadas foram o azul claro e o azul em um tom mais forte'](https://github.com/amandakenes/calculadora-imc/blob/main/images/preview.png)
+<img src="https://github.com/amandakenes/calculadora-imc/blob/main/images/preview.png" alt="Preview de um site para calcular IMC, principais cores usadas foram o azul claro e o azul em um tom mais forte">
 
 <h2>Tecnologias utilizadas</h2>
 <ol>
