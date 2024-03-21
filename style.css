@@ -184,3 +184,54 @@ footer p a:hover {
 	margin: 50px 0;
   }
 }
+
+@media (max-width: 500px) {
+	header {
+		width: 440px
+	}
+	header h1 {
+		border: 1px solid yellow;
+		width: 400px;
+	}
+	main {
+		width: 400px;
+		padding: 100px 60px 180px 60px;
+	}
+	.input-area {
+		border: 1px solid yellow;
+		width: 380px;
+		margin: 30px 0 0 -15px;
+		gap: 30px;
+	}
+	.input-area h2 {
+		text-align: center;
+	}
+	#inputs {
+		flex-direction: column;
+	}
+	#label-weight {
+		margin-left: -140px;
+		margin-top: 20px;	
+		font-size: 20px;
+	}
+	#label-height {
+		margin-left: -130px;	
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	#kg, #cm {
+		display: none;
+	}
+	input {
+		width: 200px;
+		height: 30px;
+	}
+
+	button {
+		margin-top: 10px;
+		width: 200px;
+	}
+	footer {
+		width: 497px;	
+	}
+}
