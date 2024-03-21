@@ -1,5 +1,5 @@
 <h1>Calculadora de IMC</h1>
-<legend style="font-style: italic">*IMC = Índice de massa corporal</legend>
+<legend>*IMC = Índice de massa corporal</legend>
 
 <p>Ferramenta para calcular o IMC do usuário, se baseando no peso e altura que for digitado
 <br>O intuito desse projeto é praticar minhas habilidades principalmente em Javascript mas também em CSS, HTML e Git.
